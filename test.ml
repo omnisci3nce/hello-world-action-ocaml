@@ -1,5 +1,5 @@
 let test_hello () =
-  Alcotest.(check string) "same string" Hello.hello "hello world"
+  Alcotest.(check string) "same string" Hello.hello "Hello, World!"
 
 let () =
   let open Alcotest in
